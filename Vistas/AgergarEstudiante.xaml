@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iandardeS7.Vistas.AgergarEstudiante"
+             Title="Agergar Estudiantes">
+    <VerticalStackLayout>
+        <Label 
+         Text="AGREGAR ESTUDIANTE"
+         FontSize="24" 
+         HorizontalTextAlignment="Center"/>
+
+        <Entry x:Name="txtNombre"
+            Placeholder="Ingrese Nombre"
+         />
+        <Entry x:Name="txtApellido"
+        Placeholder="Ingrese Apellido"
+     />
+        <Entry x:Name="txtEdad"
+        Placeholder="Ingrese Edad"
+     />
+
+        <Button x:Name="btnAgregar"
+             Text="GUARDAR"
+             Clicked="btnAgregar_Clicked"
+         />
+    </VerticalStackLayout>
+</ContentPage>
